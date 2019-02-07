@@ -9,6 +9,7 @@
   },
   "dependencies": {
     "axios": "^0.18.0",
+    "swapi-node": "^0.4.4",
     "vue": "^2.5.22",
     "vuetify": "^1.5.0"
   },
