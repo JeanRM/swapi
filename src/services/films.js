@@ -1,7 +1,13 @@
 import { http } from './config'
 
+
 export default {
-    listar:() =>{
+    listarFilmes:() =>{
         return http.get('films/')
-    }
+    },
+
+    teste:(link) =>{
+        return http.get(link)
+    },
+
 }
